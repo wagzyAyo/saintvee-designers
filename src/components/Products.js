@@ -61,8 +61,8 @@ export const PRODUCTS = [
     },
     {
         id: 5,
-        productName: "SV Birkenstock slides",
-        price: 12000,
+        productName: "SV Penny Loafers",
+        price: 22000,
         priceId: "price_1NAqQGDm6cL6tL0jErfSkAx0",
         productImage: Loafers,
     },
