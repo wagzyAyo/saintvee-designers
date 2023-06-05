@@ -1,0 +1,10 @@
+.footer {
+    width: 100vw;
+    height: 80px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #F7F7F7;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    position: relative;
+
+}
