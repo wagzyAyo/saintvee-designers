@@ -3,6 +3,7 @@ import { PRODUCTS } from "../components/Products"
 import ProductLayout from '../components/ProductLayout';
 import { contextProp } from "../context/context";
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom"
 
 const cart = (props) => {
     const { productItems, totalAmount } = useContext(contextProp);
@@ -26,7 +27,7 @@ const cart = (props) => {
 
                     <div className='check-out-flex'>
                         <button className='check-sec' onClick={() => navigate("/")}>continue shopping</button>
-                        <button className='check-primary'>proceed to payment</button>
+                        <button className='check-primary'><Link to="/payment" style={{ textDecoration: "none", color: "#ffffff" }}>proceed to payment</Link></button>
                     </div>
                 </div>
             ) : (

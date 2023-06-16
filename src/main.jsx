@@ -13,8 +13,7 @@ import Navbar from "./components/Navbar"
 import "./index.css"
 import Footer from "./components/footer"
 import ContextProp from "./context/context";
-import Success from "./success";
-import Fail from "./fail";
+import Payment from "./pages/payment"
 
 
 const App = () => {
@@ -43,13 +42,9 @@ const router = createBrowserRouter([
                 element: <Cart />
             },
             {
-                path: "/success",
-                element: <Success />
-            },
-            {
-                path: "/fail",
-                element: <Fail />
-            },
+                path: "payment",
+                element: <Payment />
+            }
         ]
     }
 

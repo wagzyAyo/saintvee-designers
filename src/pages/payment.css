@@ -1,0 +1,5 @@
+.payment-container {
+    margin-top: 5em;
+    width: min(90%);
+    margin-inline: auto;
+}
