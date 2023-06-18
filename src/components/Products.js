@@ -4,6 +4,7 @@ import Slides from "../assets/img 3.jpg"
 import Boots from "../assets/img4.jpg"
 import Loafers from "../assets/img5.jpg"
 import Sandal from "../assets/img6.jpg"
+import Sandal2 from "../assets/img7.jpg"
 
 // snadal :price_1NAqaTDm6cL6tL0jQbECZMOz
 //chelsea : price_1NAqSHDm6cL6tL0j2ZbPgWRR
@@ -72,6 +73,12 @@ export const PRODUCTS = [
         price: 13000,
         priceId: "price_1NAqaTDm6cL6tL0jQbECZMOz",
         productImage: Sandal,
+    },
+    {
+        id: 7,
+        productName: "SV Birkenstock Slides",
+        price: 11000,
+        productImage: Sandal2,
     },
 
 ];

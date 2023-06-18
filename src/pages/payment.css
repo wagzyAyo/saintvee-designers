@@ -4,6 +4,7 @@
     margin-inline: auto;
     background-color: #000000;
     border-radius: 10px;
+    padding: 20px 0;
 }
 
 .payment-container h2 {
@@ -41,7 +42,52 @@
 }
 
 .details .p2 {
-    display: inherit;
-    place-content: inherit;
-    width: 351px;
+    width: auto;
+    padding: 10px 25px;
+}
+
+.contact {
+    display: grid;
+    place-content: center;
+}
+
+form {
+    width: min(361px);
+    border: 2px solid #ffffff;
+    display: grid;
+    color: #ffffff;
+    gap: 22px;
+    padding: 22px 33px;
+}
+
+.input {
+    height: 32px;
+    padding-left: 10px;
+
+}
+
+textarea {
+    height: 82px;
+    padding: 10px;
+}
+
+.send {
+    padding: 10px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media (max-width:470px) {
+    .payment-container {
+        font-size: 12px;
+    }
+
+    .payment-container h2 {
+        font-size: 16px;
+    }
+
+    form {
+        border: none;
+    }
 }
