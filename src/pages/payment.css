@@ -1,5 +1,47 @@
 .payment-container {
-    margin-top: 5em;
-    width: min(90%);
+    margin-top: 8em;
+    width: min(80%, 950px);
     margin-inline: auto;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.payment-container h2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.payment-container p {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 38px;
+    margin-bottom: 43px;
+}
+
+.payment-container p span {
+    font-weight: bold;
+}
+
+.details {
+    display: grid;
+    gap: 43px;
+    place-content: center;
+}
+
+.details p {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 10px, 11px;
+    width: 287px;
+    height: 39px;
+    display: inherit;
+    place-content: inherit;
+}
+
+.details .p2 {
+    display: inherit;
+    place-content: inherit;
+    width: 351px;
 }
